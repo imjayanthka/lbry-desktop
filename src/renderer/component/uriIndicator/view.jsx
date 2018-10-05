@@ -60,14 +60,8 @@ class UriIndicator extends React.PureComponent<Props> {
     }
 
     const inner = (
-      <span>
-        <span
-          className={classnames('channel-name', {
-            'button-text no-underline': link,
-          })}
-        >
-          {channelName}
-        </span>{' '}
+      <span className="channel-name">
+        {channelName}
       </span>
     );
 

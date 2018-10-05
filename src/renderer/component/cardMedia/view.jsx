@@ -4,6 +4,7 @@ import classnames from 'classnames';
 
 type Props = {
   thumbnail: ?string, // externally sourced image
+  shouldObscure: boolean, // Add the NSFW color
 };
 
 class CardMedia extends React.PureComponent<Props> {
